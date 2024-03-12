@@ -5,6 +5,46 @@
 }
 .card {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   align-items: center;
+  width: 700px;
+  height: 200px;
+  background-color: rgb(183, 220, 220);
+  border-radius: 20px;
+  padding-left: 10px;
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.card__img{
+  width: 100%;
+  padding-right: 7px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
+}
+.card__content{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+.card__line{
+  width: 50%;
+  height: 3px;
+  background-color: #027545;
+  border-color: #027545;
+}
+.card__linkc{
+  text-align: right;
+}
+.card__link{
+  color: #027545;
+  
+  font-size: large;
+  
+
 }
